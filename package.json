@@ -1,0 +1,19 @@
+{
+  "name": "birdwatch-front",
+  "version": "1.0.0",
+  "description": "birdwatch app front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soundmedicine/birdwatch-front.git"
+  },
+  "author": "Roberto Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soundmedicine/birdwatch-front/issues"
+  },
+  "homepage": "https://github.com/soundmedicine/birdwatch-front#readme"
+}
