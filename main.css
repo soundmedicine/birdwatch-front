@@ -1,0 +1,18 @@
+html {
+    background: rgba(0, 38, 38, 1);
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+h1, h3 {
+    display: flex;
+    justify-content: center;
+    color: rgba(149, 198, 35, 1);
+    font-family: 'Cabin Sketch', cursive;
+    
+}

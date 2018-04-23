@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/soundmedicine/birdwatch-front/issues"
   },
-  "homepage": "https://github.com/soundmedicine/birdwatch-front#readme"
+  "homepage": "https://github.com/soundmedicine/birdwatch-front#readme",
+  "dependencies": {
+    "surge": "^0.20.1"
+  }
 }

@@ -1,5 +1,5 @@
 const birds = document.querySelector('.birds')
-const server = 'http://localhost:3000/birds'
+const server = 'https://wildwatcher.herokuapp.com/birds'
 const button = document.querySelector('#button')
 
 fetch(server)
@@ -7,8 +7,8 @@ fetch(server)
         return response.json()
     })
     .then(function(data) {
-        console.log(data)
-        data.forEach(function(object) {
+        console.log(data.birds)
+        data.birds.forEach(function(object) {
         let birdCard = document.createElement('li')
         let rowDiv = document.createElement('div')
         let colDiv = document.createElement('div')
@@ -30,6 +30,7 @@ fetch(server)
         cardDiv.setAttribute('class', 'card')
         imageDiv.setAttribute('class', 'card-image')
         image.setAttribute('src', `${object.image}`)
+        image.setAttribute('class', 'responsive-img')
         title.setAttribute('class', 'card-title')
         title.innerHTML = `${object.commonName}`
         addButton.setAttribute('class', 'btn-floating halfway-fab waves-effect waves-light red')
