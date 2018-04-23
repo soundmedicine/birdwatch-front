@@ -27,17 +27,17 @@ fetch(server)
 
         rowDiv.setAttribute('class', 'row')
         colDiv.setAttribute('class', 'col s12 m6')
-        cardDiv.setAttribute('class', 'card')
+        cardDiv.setAttribute('class', 'card yellow lighten-2')
         imageDiv.setAttribute('class', 'card-image')
         image.setAttribute('src', `${object.image}`)
         image.setAttribute('class', 'responsive-img')
         title.setAttribute('class', 'card-title')
         title.innerHTML = `${object.commonName}`
         addButton.setAttribute('class', 'btn-floating halfway-fab waves-effect waves-light red')
-        addButton.setAttribute('id', 'button')
+        addButton.setAttribute('id', 'button large')
         add.setAttribute('class', 'materialize-icons')
         add.innerHTML = '+'
-        minusButton.setAttribute('class', 'btn-floating btn-small waves-effect waves-light orange')
+        minusButton.setAttribute('class', 'btn-floating btn-small waves-effect waves-light orange accent-4')
         minusButton.setAttribute('id', 'button')
         minus.setAttribute('class', 'materialize-icons')
         minus.innerHTML = '-'
